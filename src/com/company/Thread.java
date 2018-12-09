@@ -5,7 +5,7 @@ public class Thread {
     private double time = 0;
 
     public void serviceRequest(Request request, double timeService){
-        System.out.printf(request.getName() + " обслужится в %.2f", timeService);
+        System.out.printf(request.getName() + " закончит обслуживание в %.2f", timeService);
         free = false;
         time = timeService;
     }
